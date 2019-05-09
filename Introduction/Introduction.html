@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>個人簡介</title>
+	<style>
+	@import url("Introduction.css");
+	</style>
+</head>
+
+<body>
+	<header id="header">
+	  <img src="picture/BoLin.jpg" style="width:150px;height:100px;float:left;margin:0px 50px;">
+	    <nav>
+		    <ul id="nav">
+		      <li><a href="#學歷背景">學歷背景</a></li>
+		      <li><a href="#社團活動">社團活動</a></li>
+		      <li><a href="#工作經驗">工作經驗</a></li>
+		      <li><a href="#目標">目標</a></li>
+		      <li><a href="#自我期許">自我期許</a></li>
+		      <li><a href="#生活">生活紀錄</a></li>
+		    </ul>
+ 		</nav>
+	</header>
+	
+	<div class="viewport">
+	  <img class="mySlides" src="picture/HOPE.png" style="width:100%">
+	  <img class="mySlides" src="picture/HONESTY.png" style="width:100%">
+	  <img class="mySlides" src="picture/OPPORTUNITY.png" style="width:100%">
+	  <img class="mySlides" src="picture/PARTICIPATION.png" style="width:100%">
+	  <img class="mySlides" src="picture/ENCOURAGE.png" style="width:100%">
+	</div>
+	<script>
+        $('.生活-click').click(function(){
+        $('html,body').animate({scrollTop:$('#生活').offset().top},800);
+    });
+</script>
+
+	<script>
+	var myIndex = 0;
+	carousel();
+
+	function carousel() {
+	  var i;
+	  var x = document.getElementsByClassName("mySlides");
+	  for (i = 0; i < x.length; i++) {
+	    x[i].style.display = "none";  
+	  }
+	  myIndex++;
+	  if (myIndex > x.length) {myIndex = 1}    
+	  x[myIndex-1].style.display = "block";  
+	  setTimeout(carousel, 2500);    
+	}
+	</script>
+	<div id="Body">
+		<img src="picture/single.png" style="width:40%;float:left;margin:30px">
+		<a name="學歷背景"><h1>學歷背景</h1></a>
+			<p>
+				<img src="picture/YLSH.png" height="150px" width="150px">&nbsp;&nbsp;&nbsp;&nbsp;
+				<img src="picture/arrow.png" height="150px" width="150px">&nbsp;&nbsp;&nbsp;&nbsp;
+				<img src="picture/CYCU.png" height="150px" width="150px">
+				<center><img src="picture/student.png" height="300px" width="400px"></center>
+			</p>
+			<p style="clear:left"></p>
+		
+
+
+		<a name="社團活動"><h1>社團活動經驗</h1></a>
+		<blockquote style="font-size:25px">
+			大一時我選擇加入熱舞社,一方面能在這充滿讀書生活裡增加運動量,另一方面能減少自己生活上的壓力,每一次社團時間都能與夥伴盡情地揮灑汗水跳舞,尤其是在成果發表前幾週,大家一起抽空練舞想把表演做好的心情,到最後整個活動終於完美落幕,那些感動與回憶也增添我不少大學生活色彩。
+		</blockquote>
+		<center><img src="picture/dance.jpg" width="70%" border="10px"></center>
+
+		<a name="工作經驗"><h1>工作經驗</h1></a>
+		<blockquote style="font-size:25px">
+			在大學期間我為了減輕一些家裡負擔而跑去飲料店打工,在職場環境會遇到各式各樣的客人,我從一次次與顧客的互動對談中,學習到課堂上很難直接教導的溝通與應變能力,提早進入社會也能看清社會的現實面,進而好好珍惜剩下的大學時光。
+		</blockquote>
+		<center><img src="picture/work1.jpg" width="40%" border="8px" style="float:left">
+		<img src="picture/work2.jpg" width="40%" border="8px" ></center>
+
+		<a name="目標"><h1>目標</h1></a>
+		<blockquote style="font-size:25px">
+			最終的我們都是得進入職場工作,與來自各地的人去競爭,但要和那麼多的人競爭,最重要的就是具備武器去對抗,所以我希望在畢業前可以把資訊管理的相關證照考試通過,並且將自己的英文實力提升到一定的階級,不僅僅是為了達到學校的畢業門檻,而是為了自己的未來在鋪路,畢竟英文在這個時代越來越被重視,比別人多一項的優勢,就能夠比別人多一個機會。
+		</blockquote>
+
+		<a name="自我期許"><h1>大學四年的自我期許</h1></a>
+		<blockquote style="font-size:25px">
+			希望在中原大學求學的這四年裡,能夠真正的去追自己的夢,以及保持高中時期對於上大學的那份初衷與熱愛,像是雙主修與出國交換留學,好好把握每一次的學習機會,提升自己的知識與經歷,以及多參與不同的課外活動,社團活動、志工服務等等都是可以幫助自己學到在課堂上得不到的東西,培養好自已的人脈及人際關係,將自己最後的學生時期過得更精采、更充實。
+		</blockquote>
+		<center><img src="picture/school.jpg" width="60%" border="5px"></center>
+
+		<a name="生活"><h1>生活紀錄</h1></a>
+		<center><table border="0" >
+			<tr>
+				<td><img src="picture/1.jpg" width="300px" height="400px"style="margin:0px 20px 0px 0px"><br>
+				<p class="word">發光發熱,有個踏上大舞台的夢尚未實現</p></td>
+				<td><img src="picture/2.jpg" width="300px" height="400px"style="margin:0px 20px 0px 0px"><br>
+				<p class="word">一步一步往上爬,累了就休息一下再啟程</p></td>
+			</tr>
+			<tr>
+				<td><img src="picture/3.jpg" width="300px" height="400px"style="margin:0px 20px 0px 0px"><br>
+				<p class="word">親近大自然,整個世界都是我的舞台</p></td>
+				<td><img src="picture/4.jpg" width="300px" height="400px"style="margin:0px 20px 0px 0px"><br>
+				<p class="word">燦爛星球,也會有迷失方向的時刻</p></td>
+			</tr>
+			<tr>
+				<td><img src="picture/5.jpg" width="300px" height="400px"style="margin:0px 20px 0px 0px"><br>
+				<p class="word">創意塗鴉,放鬆心情也美化環境</p></td>
+				<td><img src="picture/6.jpg" width="300x" height="400px"style="margin:0px 20px 0px 0px"><br>
+				<p class="word">以古借鏡,別再犯下相同的錯誤</p></td>
+			</tr>
+		</table></center>
+
+
+
+
+	</div>
+	 <script>
+       $(function () {
+       		$(‘#生活‘).click(function(){
+			$(‘html,body’).animate({scrollTop:$(‘#生活‘).offset().top}, 8000);
+			});
+       	});
+   </script>
+
+	<sidebar id="sidebar">
+		<p>
+			<img src="picture/name.png" width="50px"style="vertical-align:middle;">&nbsp;施伯霖<br><br>
+			<img src="picture/instagram.png" width="50px"style="vertical-align:middle;">&nbsp;ggil1399<br><br>
+			<img src="picture/cake.png" width="50px"style="vertical-align:middle;">&nbsp;1999/07/04<br><br>
+			<img src="picture/cellphone.png" width="50px"style="vertical-align:middle;">&nbsp;0961-350-683<br><br>
+			<img src="picture/house.png" width="50px"style="vertical-align:middle;">&nbsp;中壢區大仁二街18號<br><br>
+			<img src="picture/mail.png" width="50px"style="vertical-align:middle;">&nbsp;ggil13990@gmail.com
+			
+		</p>
+	</sidebar>
+	<div style='clear:both;'></div>
+
+	<footer id="footer">
+	背景版權由 designer 所有<br>
+	BoLin © 網站創作者
+	</footer>
+
+	<a style="display:scroll; position:fixed; bottom:0px; right:5px;" href="#" title="" onFocus="if(this.blur)this.blur() ">
+	<img alt='' border='0' onmouseover="this.src='picture/returns.png'" src="picture/return.png" onmouseout="this.src='picture/return.png'"/></a>
+	<script src="http://120.115.2.90/uploads/smooth-scroll.js"></script>
+</body>
+</html>
