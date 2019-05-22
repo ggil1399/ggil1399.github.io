@@ -1,0 +1,59 @@
+body{
+	background-image:url(picture/playstation.png);
+	margin:5% 5%;
+	font-family:'Microsoft JhengHei';
+}
+.banner{
+	width:90%;
+	height:auto;
+	background-color:#dde9fd;
+	margin:0px auto;
+	padding:5px;
+}
+.personal{
+	border-style:double;
+	border-width: 10px;
+	width:30%;
+	height:30%;
+	margin:10px;
+	float:left;	
+}
+h1{
+	column-span:all;
+	background:linear-gradient(to top, #faeead, #f37e7e);
+	padding:20px 0px;
+	border-radius:25px;
+}
+
+.content{
+	background-color:#dde9fd;
+	width:90%; height:auto;
+	margin:0px auto;
+	columns:2;
+	column-gap:20px;
+	padding:20px;
+	column-rule:#747bcc solid 5px;
+}
+* {box-sizing: border-box}
+
+.container {
+  width: 100%;
+  background-color:#e4e4e4;
+  border-style:solid; 
+  border-color:#acacac;
+  border-radius:5px;
+}
+
+.skills {
+  text-align: right;
+  padding: 5px;
+  color:black;
+}
+.c {width: 85%; background-color: #e45d6d;}
+.java {width: 70%; background-color: #f1a27c;}
+.html {width: 75%; background-color: #fdea84;}
+.css {width: 65%; background-color: #55c763;}
+.js {width: 60%; background-color: #709ecf;}
+.projrct{
+	width:400px;
+}
